@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ .navbar{
+    margin-left: 140px;
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center;
+     align-items: left; */
+     /* float: left; */
+} 
+
+
+ /* Home section  */
+
+#home .firstimg img{
+height: 100%;
+width: 100%;
+}
+.firstimg{
+    margin-bottom: 33px;
+}
+#home{
+    font-size: 2.8rem;
+    margin:12px 58px;
+        display: flex;
+        flex-direction: column;
+        padding: 3px 86px;
+        /* height:695px; */
+        /* width: 695px; */
+        justify-content: center;
+        align-items: center;
+        /* text-shadow: 2px 2px 2px black; */
+}
+.para{
+    font-size: 38px;
+}
+
+/* services section */
+
+#services1,#services2{
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#services1 .box,#services2 .box{
+    /* border: 2px solid brown; */
+    padding: 15px;
+    margin: 3px;
+    border-radius: 20px;
+    /* background-color: #f8f0f0; */
+    /* height: 123px; */
+    text-align: center;
+}
+#services1 .box img,#services2 .box img{
+    height: 390px;
+    width: 509px;
+    margin: auto;
+    display: block;
+}
+
+/* button section  */
+.bttn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.startmenu{
+    /* border: 2px solid black; */
+    padding: 27px 203px;
+    font-size: 44px;
+    color: white;
+    background-color:  #0078d7 ;
+    /* display: flex; */
+    border-radius: 10px;
+    cursor: pointer;
+   }
+
+   /* last section  */
+   .lastcont{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 33px;
+       background-color:#9c999936;
+       margin-top: 33px;
+    }
+    #h-primary{
+        font-size: 3.5rem;
+    }
+ #llt{
+     font-size: 1.8rem;
+ }
+ #llt1{
+     font-size: 1.2rem;
+ }
+ .h-secondary{
+    padding: 10px;
+    font-size: 34px;
+ }
+ .servicestxt{
+     font-size: 20px;
+ }
+
+ #client img{
+    height: 38px;
+ }
+ #client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 22px; */
+  }
+  .client-item{
+    padding: 14px;
+}
